@@ -1,5 +1,12 @@
 {
-    "files.associations": {
-        "PROJ.C": "cpp"
-    }
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Python File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        }
+    ]
 }
